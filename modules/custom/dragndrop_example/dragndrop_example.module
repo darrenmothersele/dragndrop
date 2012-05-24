@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Drag and Drop example feature.
+ */
+
+include_once 'dragndrop_example.features.inc';

@@ -20,5 +20,5 @@ dependencies[] = file
 dependencies[] = admin_menu
 dependencies[] = features
 
-dependencies[] = dragndrop_config
+dependencies[] = dragndrop_example
 

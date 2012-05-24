@@ -13,3 +13,11 @@ projects[views][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
 projects[redirect][subdir] = "contrib"
+
+projects[date][subdir] = "contrib"
+projects[relation][subdir] = "contrib"
+projects[rb][subdir] = "contrib"
+projects[rules][subdir] = "contrib"
+projects[entity][subdir] = "contrib"
+projects[viewfield][subdir] = "contrib"
+
