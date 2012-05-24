@@ -1,6 +1,7 @@
 name = Drag and Drop example
 core = 7.x
 package = Features
+php = 5.2.4
 dependencies[] = ctools
 dependencies[] = date
 dependencies[] = date_api
@@ -54,4 +55,5 @@ features[variable][] = node_submitted_meeting
 features[variable][] = node_submitted_person
 features[views_view][] = all_people
 features[views_view][] = meeting_attendees
+features[views_view][] = meeting_callback_sub_view
 features[views_view][] = meeting_list

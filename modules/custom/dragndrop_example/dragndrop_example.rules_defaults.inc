@@ -51,7 +51,7 @@ function dragndrop_example_default_rules_configuration() {
             "PROVIDE" : { "entity_created" : { "entity_created" : "Created entity" } }
           }
         },
-        { "redirect" : { "url" : "node\\/[argument-entity-id--node-1:nid]" } }
+        { "redirect" : { "url" : "ajax\\/view\\/meeting_attendees\\/default\\/[argument-entity-id--node-1:nid]" } }
       ]
     }
   }');
