@@ -8,4 +8,4 @@ projects[drupal][patch][] = "http://drupal.org/files/1216776-contextual-links-ne
 
 projects[dragndrop][type] = "profile"
 projects[dragndrop][download][type] = "git"
-projects[dragndrop][download][url] = "git@github.com:darrenmothersele/dragndrop.git"
+projects[dragndrop][download][url] = "git://github.com/darrenmothersele/dragndrop.git"
