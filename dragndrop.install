@@ -5,11 +5,21 @@ function dragndrop_install() {
   $values = array(
     array(
       'module' => 'views',
-      'delta' => 'all-people-block',
+      'delta' => 'all_people-block',
       'theme' => $default_theme,
       'status' => 1,
       'weight' => 0,
       'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'main',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'content',
       'pages' => '',
       'cache' => -1,
     ),
