@@ -5,3 +5,28 @@
  */
 
 include_once 'dragndrop_example.features.inc';
+
+function dragndrop_example_init() {
+  drupal_add_css(drupal_get_path('module', 'dragndrop_example') . '/dragndrop-example.css');
+  drupal_add_js(drupal_get_path('module', 'dragndrop_example') . '/dragndrop-example.js');
+  drupal_add_library('system', 'ui.draggable');
+  drupal_add_library('system', 'ui.droppable');
+}
+
+function dragndrop_example_menu() {
+  $items['ajax/view/%/%'] = array(
+    'title' => 'AJAX View',
+    'page callback' => '_dragndrop_example_ajaxview',
+		'page arguments' => array(2, 3),
+    'access arguments' => array('access content'),
+    'type' => MENU_CALLBACK,
+  );
+  return $items;
+}
+
+function _dragndrop_example_ajaxview($view_name, $display_id) {
+	$args = func_get_args();
+	$result = call_user_func_array('views_embed_view', $args);
+	print $result;
+}
+

@@ -1,0 +1,13 @@
+
+.callback {
+  display: none;
+}
+
+.draggable {
+  z-index: 99;
+}
+
+.drop-hover {
+  background: yellow;
+}
+

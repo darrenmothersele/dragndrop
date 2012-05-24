@@ -1,6 +1,6 @@
 <?php
 
 function dragndrop_install() {
-	include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
-	minimal_install();
+  include_once DRUPAL_ROOT . '/profiles/minimal/minimal.install';
+  minimal_install();
 }
